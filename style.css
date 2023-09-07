@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'StardewFont';
+    src: url(fonts/Stardew_Valley.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --rank0: #3d81b5;/*1+*/
+    --rank1: #33e462;/*3+*/
+    --rank2: #ffe70f;/*5+*/
+    --rank3: #ff2f00;/*7+*/
+    --rank4: #d521ef;/*9+*/
+}
+
+body{
+    background-color:#18181B;
+    background-image: url("svwallpaper.jpg");
+    /*font-family: 'StardewFont';*/
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'StardewFont';
+}
+
+.card{
+    background: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(5px);
+    font-size: medium;
+}
+
+.card:hover{
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.buzenbo{
+    color: var(--rank4);
+}
+.echo{
+    color: var(--rank3);
+}
+.seiichi{
+    color: var(--rank2);
+}
+.nekotyan{
+    color: var(--rank3);
+}
+.lunacy{
+    color: var(--rank4);
+}
+.kyrgzten{
+    color: var(--rank4);
+}
+.wave33{
+    color: var(--rank3);
+}
+.kimpoy{
+    color: var(--rank2);
+}
+.daydream{
+    color: var(--rank3);
+}
+.myrjan{
+    color: var(--rank3);
+}
+.yoshibang{
+    color: var(--rank2);
+}
+.drinnnn{
+    color: var(--rank4);
+}
+.eastgamer{
+    color: var(--rank3);
+}
+
+/*
+Ranks
+
+10 - Confidante
+9 - Kindred Spirit
+8 - True Companion
+7 - Best Friend
+6 - Close Friend
+5 - Good Friend
+4 - Friend
+3 - Recent Friend
+2 - Acquaintance
+1 - Business Contact
+
+
+
+*/
