@@ -16,6 +16,8 @@
 body{
     background-color:#18181B;
     background-image: url("svwallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
     /*font-family: 'StardewFont';*/
     font-family: 'Poppins', sans-serif;
 }
